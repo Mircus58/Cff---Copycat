@@ -26,5 +26,18 @@
         ]
       }
     }
+  ],
+  "dataGroups": [
+    {
+      "name" : "cffhoraire",
+      "urls": [
+        "https://timetable.search.ch/api"
+      ],
+      "cacheConfig": {
+        "maxAge": "2m",
+        "maxSize": 2,
+        "strategy": "performance"
+      }
+    }
   ]
 }
