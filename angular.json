@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/cff-faker",
+            "outputPath": "dist/cff-faker/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -153,6 +153,9 @@
               "browserTarget": "CffFaker:build:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
